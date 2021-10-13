@@ -28,7 +28,7 @@
 
 - one-key-hidpi : 一键开启 macOS HiDPI
 - ThinkpadAssistant : 开启THINKPAD驱动FN多功能键位
-
+- yogaSMC.dmg : 一键开启风扇转速控制软件，防止过热。
 ## 致谢
 
 - bdragonh https://github.com/bdragonh/T480S-BIGSUR-EFI
