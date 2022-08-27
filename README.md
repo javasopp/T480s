@@ -1,8 +1,9 @@
 ## 简介
 
 - Lenovo ThinkPad T480s 黑苹果 EFI ，基于OC包含基础驱动，修改三码后开箱即用，不过我貌似也没咋个修改三码。
-- 适用版本：macOS Bigsur  
+- 适用版本：macOS 13.0 Beta版
 - SIP正常 开启状态
+- OC版本: 0.8.3
 
 ### 硬件使用状态
 
@@ -19,6 +20,8 @@
 * [x] 休眠/唤醒/关机/重启 （电源LED、合盖/开盖全部状态正常）
 * [x] USB全部端口 （多个USB不会出现供电问题）
 
+> 说明: 目前小概率出现唤醒分辨率异常，桌面变成小框，还未解决
+
 ## 使用方法
 
 - 复制EFI到EFI分区 编辑EFI/OC/config.plist 使用OCC修改三码即可。
@@ -29,6 +32,3 @@
 - one-key-hidpi : 一键开启 macOS HiDPI
 - ThinkpadAssistant : 开启THINKPAD驱动FN多功能键位
 - yogaSMC.dmg : 一键开启风扇转速控制软件，防止过热。
-## 致谢
-
-- bdragonh https://github.com/bdragonh/T480S-BIGSUR-EFI
