@@ -22,7 +22,7 @@
 	<string>1.0</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>MacBookPro15,3-XHC</key>
+		<key>MacBookPro15,2-XHC</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBMergeNub</string>
@@ -41,11 +41,11 @@
 				<key>kUSBSleepPortCurrentLimit</key>
 				<integer>2100</integer>
 				<key>kUSBSleepPowerSupply</key>
-				<integer>5100</integer>
+				<integer>2600</integer>
 				<key>kUSBWakePortCurrentLimit</key>
 				<integer>2100</integer>
 				<key>kUSBWakePowerSupply</key>
-				<integer>5100</integer>
+				<integer>3200</integer>
 				<key>port-count</key>
 				<data>
 				DwAAAA==
@@ -57,7 +57,7 @@
 						<key>Comment</key>
 						<string>左侧USB</string>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>0</integer>
 						<key>name</key>
 						<string>HS01</string>
 						<key>port</key>
@@ -70,23 +70,12 @@
 						<key>Comment</key>
 						<string>右侧USB</string>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>0</integer>
 						<key>name</key>
 						<string>HS02</string>
 						<key>port</key>
 						<data>
 						AgAAAA==
-						</data>
-					</dict>
-					<key>HS05</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>255</integer>
-						<key>name</key>
-						<string>HS05</string>
-						<key>port</key>
-						<data>
-						BQAAAA==
 						</data>
 					</dict>
 					<key>HS07</key>
@@ -127,7 +116,7 @@
 						<key>Comment</key>
 						<string>左侧USB</string>
 						<key>UsbConnector</key>
-						<integer>255</integer>
+						<integer>3</integer>
 						<key>name</key>
 						<string>SS01</string>
 						<key>port</key>
@@ -140,7 +129,7 @@
 						<key>Comment</key>
 						<string>右侧USB</string>
 						<key>UsbConnector</key>
-						<integer>255</integer>
+						<integer>3</integer>
 						<key>name</key>
 						<string>SS02</string>
 						<key>port</key>
@@ -162,7 +151,7 @@
 				</dict>
 			</dict>
 			<key>model</key>
-			<string>MacBookPro15,3</string>
+			<string>MacBookPro15,2</string>
 		</dict>
 	</dict>
 	<key>OSBundleRequired</key>
